@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="css/search.css" />
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <!--jovo chat -->
+    <script src="//code.jivosite.com/widget.js" data-jv-id="MUOiOHFPiE" async></script>
+
   </head>
 
   <body>
@@ -73,11 +76,130 @@
                     <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <!--this is the link for real estate news and information-->
-                  <li class="nav-item">
+                  <!--this is the attempt for the code for drop dwown menus for real estate-->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Real Esate
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="single-blog.html"
+                        >Determine your budget</a
+                      >
+                      <a class="dropdown-item" href="elements.html"
+                        >find your home</a
+                      >
+                      <a class="dropdown-item" href="single-blog.html"
+                        >Determine your budget</a
+                      >
+                      <a class="dropdown-item" href="elements.html"
+                        >Get prequalified</a
+                      >
+                    </div>
+                  </li>
+                  <!--this is the link mortgage news and information-->
+                  <!--this is the attempt for the code for drop dwown menus for mortgage-->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Mortgages
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="single-blog.html"
+                        >Determine your budget</a
+                      >
+                      <a class="dropdown-item" href="elements.html"
+                        >find your home</a
+                      >
+                      <a class="dropdown-item" href="single-blog.html"
+                        >Determine your budget</a
+                      >
+                      <a class="dropdown-item" href="elements.html"
+                        >Get prequalified</a
+                      >
+                    </div>
+                  </li>
+                  <!--this is the link for real estate news and information-->
+                  <!--this is the attempt for the code for drop dwown menus for real estate-->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Real Esate
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="single-blog.html"
+                        >Determine your budget</a
+                      >
+                      <a class="dropdown-item" href="elements.html"
+                        >find your home</a
+                      >
+                      <a class="dropdown-item" href="single-blog.html"
+                        >Determine your budget</a
+                      >
+                      <a class="dropdown-item" href="elements.html"
+                        >Get prequalified</a
+                      >
+                    </div>
+                  </li>
+                  <!--this is the link for real estate news and information-->
+                  <!--this is the attempt for the code for drop dwown menus for real estate-->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Credit
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="single-blog.html"
+                        >Determine your budget</a
+                      >
+                      <a class="dropdown-item" href="elements.html"
+                        >find your home</a
+                      >
+                      <a class="dropdown-item" href="single-blog.html"
+                        >Determine your budget</a
+                      >
+                      <a class="dropdown-item" href="elements.html"
+                        >Get prequalified</a
+                      >
+                    </div>
+                  </li>
+
+                  <!-- <li class="nav-item">
                     <a class="nav-link" href="realestate.html">Real Estate</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="trading.html">Trading</a>
+                    <a class="nav-link" href="trading.html">Mortgages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="trading.html">Credit</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -100,7 +222,7 @@
                       >
                       <a class="dropdown-item" href="elements.html">elements</a>
                     </div>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
               <div class="header_social_icon d-none d-sm-block">
@@ -567,6 +689,24 @@
                 <span class="ti-headphone-alt"></span>
                 <a href="tel:19498779190"><h5>+1 949-877-9190</h5></a>
                 <p>Mon to Fri 9am to 6 pm.</p>
+                <script
+                  async
+                  src="https://pay.google.com/gp/p/js/pay.js"
+                  onload="onGooglePayLoaded()"
+                >
+                   function onGooglePayLoaded(){
+                    const googlePayClient =
+                    new google.payments.api.PaymentsClient({
+                      environment:'TEST'
+                    });
+                  }
+                </script>
+                <!-- function onGooglePayLoaded(){
+      const googlePayClient = 
+      new google.payments.api.PaymentsClient({
+        environment:'TEST'
+      });
+    } -->
               </div>
             </div>
           </div>
@@ -627,20 +767,16 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
-    <!--thhis is the code for the popup--><script
-      type="text/javascript"
-      src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
-      data-dojo-config="usePlainJson: true, isDebug: false"
-    ></script
-    ><script type="text/javascript">
-      window.dojoRequire(["mojo/signup-forms/Loader"], function(L) {
-        L.start({
-          baseUrl: "mc.us4.list-manage.com",
-          uuid: "e7c8a20be0dd5c455d0afb8b7",
-          lid: "54e8b1b633",
-          uniqueMethods: true
-        });
+    <!-- <script
+      async
+      src="https://pay.google.com/gp/p/js/pay.js"
+      onload="onGooglePayLoaded()"
+    ></script>
+    function onGooglePayLoaded(){
+      const googlePayClient = 
+      new google.payments.api.PaymentsClient({
+        environment:'TEST'
       });
-    </script>
+    } -->
   </body>
 </html>
